@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pospe-Detector</string>
+    <string name="microsoft_corporate">Microsoft Corporate</string>
+    <string name="prestige_ferns_galaxy">Prestige Ferns Galaxy</string>
+    <string name="where_to">Where To?</string>
+    <string name="report_pothole">Report Pothole</string>
+    <string name="dot">DOT</string>
+</resources>

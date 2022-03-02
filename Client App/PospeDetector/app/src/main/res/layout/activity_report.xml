@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+    android:id="@+id/report_report"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:fontFamily="@font/font"
+    android:gravity="center_horizontal"
+    android:scaleType="centerInside"
+    android:text="REPORT POTHOLE"
+    android:textAlignment="center"
+    android:textColor="#9C27B0"
+    android:textSize="25sp"
+    android:textStyle="bold"
+   />
+
+    <TextView
+        android:id="@+id/report_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/font"
+        android:scaleType="centerInside"
+        android:text="Upload an image to report a pothole"
+        android:textColor="#A39190"
+        android:textSize="15sp"
+/>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/report_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:padding="2dp"
+ />
+
+
+    <Button
+        android:id="@+id/report_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#9C27B0"
+        android:text="SELECT A PICTURE"
+        android:gravity="center"
+ />
+
+    <Button
+        android:id="@+id/report_upload"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9C27B0"
+        android:text="UPLOAD"
+ />
+
+    <Button
+        android:id="@+id/report_back"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9C27B0"
+        android:text="BACK"
+ />
+</LinearLayout>
